@@ -38,4 +38,12 @@
         </plugins>
     </build>
 
+<distributionManagement>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>a0sk8ebi18cca-artifactory-primary-0-snapshots</name>
+        <url>https://trialegin9d.jfrog.io/artifactory/myrepo-libs-snapshot</url>
+    </snapshotRepository>
+</distributionManagement>
+
 </project>
